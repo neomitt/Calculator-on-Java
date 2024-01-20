@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151313"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/lay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#504A51"
+            android:onClick="onClick"
+            android:text="Exit"
+            android:textColor="#FFFCFC" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#FFFFFF"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#FFFFFF"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#265FD1"
+            android:onClick="onClick"
+            android:text="-"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#649C33"
+            android:onClick="onClick"
+            android:text="+"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonUmn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#CF6015"
+            android:onClick="onClick"
+            android:text="*"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonDelen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#851E97"
+            android:onClick="onClick"
+            android:text="/"
+            android:textColor="#FFFCFC" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#C31717"
+            android:onClick="onClick"
+            android:text="C"
+            android:textColor="#FDFDFD" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
